@@ -23,6 +23,14 @@ There are 4 types of Number classes in Kotlin:
   3. Int - 4 Byte
   4. Long - 8 Byte*/
 
+/*
+* There are 2 types of classes for floating numbers
+* No.     ClassName   Size        Significant Bits      Exponent Bits    Decimal Digits
+* 1.      Float       4 Byte              24                  8              6-7
+* 2.      Double      8 Byte              53                  11            15-16
+*
+* */
+
 
 
 }
