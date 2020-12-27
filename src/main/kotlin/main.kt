@@ -29,8 +29,28 @@ There are 4 types of Number classes in Kotlin:
 * 1.      Float       4 Byte              24                  8              6-7
 * 2.      Double      8 Byte              53                  11            15-16
 *
+* Default type of decimal number is Float
+*
+*
+* val pi = 3.14 // Double
+* val e = 2.7182818284 // Double
+* val eFloat = 2.7182818284f // Float, actual value is 2.7182817
 * */
 
+//  There is no implicit type conversion for classes in Kotlin
+
+  fun printNum(n: Int){
+    printNum(n)
+  }
+
+  /*val q: Int = 10
+  val w: Float = 12.4f
+  val e: Short = 11
+
+  printNum(q)
+  printNum(w) // Shows Error: Type Mismatch
+  printNum(e) // Shows Error: Type Mismatch
+*/
 
 
 }
