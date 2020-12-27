@@ -7,5 +7,9 @@ fun main(args: Array<String>) {
     i = 90
     print(i)
 
+  val i: Int = 500
+  print(i)
+  i = 50 // Shows error because val are immutable
+
 
 }
