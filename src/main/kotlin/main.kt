@@ -47,10 +47,18 @@ There are 4 types of Number classes in Kotlin:
   val w: Float = 12.4f
   val e: Short = 11
 
+  OR
+  val q = 10
+  val w = 12.4f
+  val e = 11.6
+
   printNum(q)
   printNum(w) // Shows Error: Type Mismatch
   printNum(e) // Shows Error: Type Mismatch
 */
 
+//No support for octal in Kotlin
+//Long must have L in end
+//Supports _ just like java in numbers e.g. val currency: Long = 10_000_000L
 
 }
