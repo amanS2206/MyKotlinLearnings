@@ -1,3 +1,5 @@
+import kotlin.reflect.typeOf
+
 fun main(args: Array<String>) {
 /*    val name = "Hello World"
     print("${name.toUpperCase()}")*/
@@ -40,10 +42,13 @@ There are 4 types of Number classes in Kotlin:
 * */
 
 //  There is no implicit type conversion for classes in Kotlin
-
+// For explicit type conversions we have methods like .toByte(), ,toShort(), .toInt(), .toLong(), .toFloat()
+// , .toChar(), .toDouble(), .toString()
+/*
   fun printNum(n: Int){
     printNum(n)
   }
+*/
 
   /*val q: Int = 10
   val w: Float = 12.4f
@@ -75,7 +80,7 @@ There are 4 types of Number classes in Kotlin:
 //If and else are same as java in Kotlin
 
 //  Switch case is called as when in Kotlin, e.g.
-  val num: Int = 10
+ /* val num: Int = 10
   when(num){
     10 -> {
       print("It is 10")
@@ -88,9 +93,9 @@ There are 4 types of Number classes in Kotlin:
     }
 
   }
-println()
+println()*/
 
-  val name: String = "Kotlin"
+/*  val name: String = "Kotlin"
   when(name) {
     "Kotlin" -> {
       print("It is Kotlin")
@@ -101,6 +106,34 @@ println()
     else -> {
       print("Bhai, kuch bhi mt input de yaar... Abhi to bataya tha tujhe ")
     }
+  }*/
+
+  // Else must be always at last of all the cases in kotlin
+  // We can also assign when values and if values in Kotlin, like
+/*
+  val num = 10
+  val isNumberEqualsToTen = if(num == 10){
+    print("It is 10")
   }
+  else{
+    print("It is not 10")
+  }
+  print(isNumberEqualsToTen) // It returns kotlin.Unit which is a Kotlin class
+*/
+
+/*  Unit datatype means nothing
+  Any datatype means anything - It is the root of every class of Kotlin just like Object in Java
+  */
+
+
+//  Arrays in Kotlin
+
+  val nums = arrayOf(1,2,3,4,5,6,7,8,9,0)
+  // print(nums) // prints   [Ljava.lang.Integer;@1b2c6ec2
+
+  for (num in nums){
+    println(num)
+  }
+
 
 }
