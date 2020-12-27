@@ -2,10 +2,12 @@ fun main(args: Array<String>) {
 /*    val name = "Hello World"
     print("${name.toUpperCase()}")*/
 
+/*
   var i: Int = 100
     println(i)
     i = 90
     print(i)
+*/
 
 /*
   val i: Int = 500
@@ -60,5 +62,45 @@ There are 4 types of Number classes in Kotlin:
 //No support for octal in Kotlin
 //Long must have L in end
 //Supports _ just like java in numbers e.g. val currency: Long = 10_000_000L
+
+/*
+  val name = "Kanishk"
+  if(name == "Kanishk"){
+    println("Yes")
+  }
+  else{
+    print("No")
+  }
+*/
+//If and else are same as java in Kotlin
+
+//  Switch case is called as when in Kotlin, e.g.
+  val num: Int = 10
+  when(num){
+    10 -> {
+      print("It is 10")
+    }
+    12 ->{
+      print("It is 12")
+    }
+    else ->{
+      print("Bhai, kuch bhi mt input de yaar... ")
+    }
+
+  }
+println()
+
+  val name: String = "Kotlin"
+  when(name) {
+    "Kotlin" -> {
+      print("It is Kotlin")
+    }
+    "Jet Brains" -> {
+      print("It is Jet Brains")
+    }
+    else -> {
+      print("Bhai, kuch bhi mt input de yaar... Abhi to bataya tha tujhe ")
+    }
+  }
 
 }
