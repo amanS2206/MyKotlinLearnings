@@ -131,9 +131,15 @@ println()*/
   val nums = arrayOf(1,2,3,4,5,6,7,8,9,0)
   // print(nums) // prints   [Ljava.lang.Integer;@1b2c6ec2
 
-  for (num in nums){
+/*  for (num in nums){
     println(num)
   }
+  */
+
+/*  nums.forEach {
+    print(it)
+  }*/
+  // .forEach is a high order function in Kotlin
 
 
 }
