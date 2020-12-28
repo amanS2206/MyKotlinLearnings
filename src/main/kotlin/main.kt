@@ -149,9 +149,14 @@ println()*/
   }*/
   // .. is used to create a temporary list and this for loop is similar to python for loop
 
-  for(i in 0..9 step 2){
+/*  for(i in 0..9 step 2){
     print(i)
-  }
+  }*/
 
   // step is used to tell kotlin that by which value we want to increment the counter
+
+  for (i in 8 downTo 3){
+    print(i)
+  }
+  // downTo is used to iterate in reverse manner and it is of inclusive range i.e. []
 }
