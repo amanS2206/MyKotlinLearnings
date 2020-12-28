@@ -128,7 +128,7 @@ println()*/
 
 //  Arrays in Kotlin
 
-  val nums = arrayOf(1,2,3,4,5,6,7,8,9,0)
+  // val nums = arrayOf(1,2,3,4,5,6,7,8,9,0)
   // print(nums) // prints   [Ljava.lang.Integer;@1b2c6ec2
 
 /*  for (num in nums){
@@ -142,4 +142,10 @@ println()*/
   // .forEach is a high order function in Kotlin
 
 
+//  Ranges
+
+  for(i in 0..9){
+    print(i)
+  }
+  // .. is used to create a temporary list and this for loop is similar to python for loop
 }
