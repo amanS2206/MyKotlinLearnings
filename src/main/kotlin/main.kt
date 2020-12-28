@@ -155,8 +155,18 @@ println()*/
 
   // step is used to tell kotlin that by which value we want to increment the counter
 
-  for (i in 8 downTo 3){
+ /* for (i in 8 downTo 3){
     print(i)
-  }
+  }*/
   // downTo is used to iterate in reverse manner and it is of inclusive range i.e. []
+
+  val arr = listOf<Int>(4,5,8,4,56,7,4,3,34,65,7,6,5)
+  if(56 in arr){
+    print("yes")
+  }
+  if(10 in arr){
+    print("Bhai nahi hai 10 dikhta nahi hai kya. Mai kuch print nahi karne wala")
+  }
+  // we can use 'in' to check something just like python i.e. if 3 in a: print("yes")
+
 }
