@@ -144,8 +144,14 @@ println()*/
 
 //  Ranges
 
-  for(i in 0..9){
+  /*for(i in 0..9){
+    print(i)
+  }*/
+  // .. is used to create a temporary list and this for loop is similar to python for loop
+
+  for(i in 0..9 step 2){
     print(i)
   }
-  // .. is used to create a temporary list and this for loop is similar to python for loop
+
+  // step is used to tell kotlin that by which value we want to increment the counter
 }
