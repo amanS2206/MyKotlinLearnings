@@ -160,13 +160,23 @@ println()*/
   }*/
   // downTo is used to iterate in reverse manner and it is of inclusive range i.e. []
 
-  val arr = listOf<Int>(4,5,8,4,56,7,4,3,34,65,7,6,5)
-  if(56 in arr){
+  //val arr = listOf<Int>(4,5,8,4,56,7,4,3,34,65,7,6,5)
+
+ /* if(56 in arr){
     print("yes")
   }
-  if(10 in arr){
+  */
+
+ /* if(10 in arr){
     print("Bhai nahi hai 10 dikhta nahi hai kya. Mai kuch print nahi karne wala")
   }
+*/
+
+  /*if(10 !in arr){
+    print("Bhai nahi hai 10, dikhta nahi hai kya. Mai ab print hoke tujhe batayunga")
+  }*/
+
   // we can use 'in' to check something just like python i.e. if 3 in a: print("yes")
+  //we can use '!in' to check something not there just like python i.e. if 3 not in a: print("yes")
 
 }
